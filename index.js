@@ -1,5 +1,6 @@
 const title = document.querySelector("#title");
 
+console.log(title);
 title.addEventListener("click", handleClick);
 
 function handleClick() {
@@ -8,4 +9,8 @@ function handleClick() {
   } else {
     title.style.color = "black";
   }
+}
+
+function init() {
+  title.style.color = black;
 }
